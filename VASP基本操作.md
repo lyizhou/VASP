@@ -113,10 +113,10 @@ Hohenberg-Kohn 定理二：能量最低的电子密度是薛定谔方程的正�
 
   * 泛函是指交换关联泛函，包括LDA、GGA、杂化泛函等。LDA为局域密度近似，在空间使用某点均匀的电子气作为交换关联泛函的唯一变量，局域密度近似的交换相关泛函可以写作：$$E_{xc}^{LDA}[\rho] = \int\rho(r)\varepsilon_{XC}(\rho)\mathrm{d}r$$$\rho$为电子密度，$\varepsilon_{XC}$ 为交换相关能量密度。
   * GGA为广义梯度近似，不仅将电子密度作为交换关联泛函的变量，同时也考虑了密度的梯度作为变量，包括PBE、PW、RPBE等方案。 
-  1. 赝势
-  2. 收敛测试
-  3. 磁性
-  4. 几何优化
+  3. 赝势
+  4. 收敛测试
+  5. 磁性
+  6. 几何优化
 
 ```mermaid {align=center}
 flowchart LR
@@ -136,7 +136,7 @@ flowchart LR
    * OUTCAR
    * DOSCAR
    * CHGCAR
-  
+TSE
 ## 二. 收敛性测试
 ## 三. 结构优化（结构弛豫）
 ## 四. 吸附能计算
