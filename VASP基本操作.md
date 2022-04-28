@@ -72,7 +72,7 @@ Hohenberg-Kohn 定理二：能量最低的电子密度是薛定谔方程的正�
 
 ---
 
-@import "交换关联势.png"
+![交换关联势](https://s2.loli.net/2022/04/28/rHa2NgvidyYCUSA.png)
 >交换关联函定义：交换关联函（exchange-correlation functional）是KS方程里除了动能项、势能项的第三项，其他所有的相互作用都包含在这一项中。
 ---
 
@@ -83,7 +83,10 @@ Hohenberg-Kohn 定理二：能量最低的电子密度是薛定谔方程的正�
 ---
 
 ![求解](https://s2.loli.net/2022/04/28/MHGpFWa5lIQDyiU.png)
-![迭代](https://s2.loli.net/2022/04/28/2bVtzl6j4YkuMix.png)
+<div align=center>
+<img src="https://s2.loli.net/2022/04/28/2bVtzl6j4YkuMix.png"/>
+</div>
+
 
 ---
 
