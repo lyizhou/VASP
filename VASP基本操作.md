@@ -106,13 +106,17 @@ Hohenberg-Kohn 定理二：能量最低的电子密度是薛定谔方程的正�
       * 基于密度泛函的从头算：通过电子密度作为基本变量，通过求解 Kohn-Sham 方程，迭代得到体系的电子密度，然后求体系的基态性质；同时考虑了电子间的交换关联作用。
       * 基于Hartree-Fock自洽计算的从头算：通过自洽求解Hartree-Fock方程，获得体系的波函数，求基态性质。
   2. 泛函
-     ![天梯图](https://s2.loli.net/2022/04/28/iRpDbxX2oJHC7q4.png)"
-      * 泛函是指交换关联泛函，包括LDA、GGA、杂化泛函等。LDA为局域密度近似，在空间使用某点均匀的电子气作为交换关联泛函的唯一变量，局域密度近似的交换相关泛函可以写作：$$E_{xc}^{LDA}[\rho] = \int\rho(r)\varepsilon_{XC}(\rho)\mathrm{d}r$$$\rho$为电子密度，$\varepsilon_{XC}$ 为交换相关能量密度。
-      * GGA为广义梯度近似，不仅将电子密度作为交换关联泛函的变量，同时也考虑了密度的梯度作为变量，包括PBE、PW、RPBE等方案。 
-  3. 赝势
-  4. 收敛测试
-  5. 磁性
-  6. 几何优化
+
+  <div align=center>
+  <img src="https://s2.loli.net/2022/04/28/iRpDbxX2oJHC7q4.png"/>
+  </div>
+
+  * 泛函是指交换关联泛函，包括LDA、GGA、杂化泛函等。LDA为局域密度近似，在空间使用某点均匀的电子气作为交换关联泛函的唯一变量，局域密度近似的交换相关泛函可以写作：$$E_{xc}^{LDA}[\rho] = \int\rho(r)\varepsilon_{XC}(\rho)\mathrm{d}r$$$\rho$为电子密度，$\varepsilon_{XC}$ 为交换相关能量密度。
+  * GGA为广义梯度近似，不仅将电子密度作为交换关联泛函的变量，同时也考虑了密度的梯度作为变量，包括PBE、PW、RPBE等方案。 
+  1. 赝势
+  2. 收敛测试
+  3. 磁性
+  4. 几何优化
 
 ```mermaid {align=center}
 flowchart LR
