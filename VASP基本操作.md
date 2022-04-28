@@ -25,10 +25,10 @@
 <!-- /code_chunk_output -->
 
 ## 一. 基本概念
-###Background-密度泛函理论[^1]
+### Background-密度泛函理论[^1]
   >密度泛函理论 (Density Functional Theory): 密度泛函理论（DFT） 的许多常用泛函均包含由实验数据拟合而来的参数。但在解决分子的电子结构问题时也常将密度泛函理论被当做第一原理方法。密度泛函理论使用电子密度而不是波函数来表述体系能量。在DFT计算中，哈密顿量的一项，交换-相关泛函，采用近似形式。
 
-@import "封面.png" {align=center}
+![](https://s2.loli.net/2022/04/28/NAx93EbmSv1CiBZ.png)
 
 ---
 * **不含时薛定谔方程**
