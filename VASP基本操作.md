@@ -136,7 +136,6 @@ flowchart LR
    * OUTCAR
    * DOSCAR
    * CHGCAR
-TSE
 ## 二. 收敛性测试
 ## 三. 结构优化（结构弛豫）
 ## 四. 吸附能计算
