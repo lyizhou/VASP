@@ -1,0 +1,1 @@
+* 需要安装Chrome插件MathJax Plugin for Github来渲染公式，否则公式可能无法正常显示
